@@ -1,0 +1,120 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  .section-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .section-login{
+    margin-top: 10%;
+  }
+
+  .section-user{
+    margin-top: 3%;
+  }
+
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #b9c9fe;
+    color: #039;
+
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button-action {
+    padding: 7px;
+    border-radius: 5%;
+  }
+
+  .button-md{
+    width: 70px;
+  }
+  
+  .button-lg{
+    width: 120px;
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  .alert-notify{
+    background: bisque;
+  }
+  .alert-successfully{
+    background: #CEF7AA;
+  }
+  .container-alert{
+    margin-bottom: 17px;
+    border-radius: 3px;
+  }
+  #section-error{
+    text-align: center;
+    color: red;
+    padding: 10px;
+  }
+  
+  #section-successfully{
+    text-align: center;
+    color: green;
+    padding: 10px;
+  }
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on small screens */
+  @media screen and (max-width: 700px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+    .section-container {
+      width: 100%;
+    }
+  }

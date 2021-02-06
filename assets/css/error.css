@@ -1,0 +1,15 @@
+.content-error{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.error-404{
+    font-size: xxx-large;
+}
+
+.error-text{
+    font-size: 40px;
+    margin-top: -46px;
+}
