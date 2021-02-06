@@ -33,6 +33,15 @@ Configurar las credenciales en el archivo ubicado en *config/Config.php*
 
 ```
 
+_Acceso al sistema_
+
+```
+Para el primer ingreso deberá utilizar las credenciales de un usuario por defecto en la BD
+Username: admin
+Password: admin1234
+
+```
+
 ## Autores ✒️
 
-* **Alex Velasquez** - *Backend*
+* **Alex Velasquez** - *Development*

@@ -30,7 +30,7 @@
                     <label for="username"><b>Username (*)</b></label>
                     <input type="text" placeholder="Enter username" name="username" value="<?= $user? $user->getUsername() : '' ?>" required>
                     <label for="email"><b>Email (*)</b></label>
-                    <input type="text" placeholder="Enter email" name="email" value="<?= $user? $user->getEmail() : '' ?>" required>
+                    <input type="text" placeholder="Enter email" name="email" value="<?= $user? $user->getEmail() : '' ?>" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="user@domain.com" required>
                     <?php 
                     if(!$user){
                         echo '<label for="password"><b>Password (*)</b></label>';

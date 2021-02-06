@@ -6,7 +6,7 @@ $controller = ucfirst($urlParts[0]).'Controller';/** controller */
 $method = !empty($urlParts[1]) ? $urlParts[1] : 'index' ; /** verify that method exists in url*/
 $params = !empty($urlParts[2]) ? $urlParts[2] : '';/** params */
 
-/** impor controller error */
+/** import controller error */
 $errorController = 'controller/ErrorController.php';
 require_once($errorController);
 $errorController = new ErrorController();
