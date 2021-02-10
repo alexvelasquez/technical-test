@@ -117,7 +117,6 @@ class UserController extends Controller{
             if($user){
                 $this->jsonResponse(200,'User deleted');
             }
-            $this->jsonResponse(200,'caca');
         } catch (\Exception $e) {
             $this->jsonResponse(200,'An error has occurred');
         }
